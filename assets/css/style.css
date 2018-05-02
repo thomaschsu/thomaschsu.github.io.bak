@@ -1,0 +1,18 @@
+h2 {
+    padding: 10px 0px;
+    background-color: #4aaaa5;
+    width: 20%;
+    color: #fff;
+    text-align: center;
+}
+header {
+    border-bottom: 2px #cccccc;
+}
+li {
+    list-style: none;
+    display: inline;
+}
+.change-width {
+    width: 960px;
+    margin: 0 auto;
+}
