@@ -59,6 +59,7 @@ h1 {
 h2 {
     color: #777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
 }
 .body-white {
     background-color:#fff;
@@ -92,4 +93,10 @@ a:hover {
 }
 p {
     line-height: 2;
+}
+input {
+    width: 100%;
+    margin: 10px 0;
+    height: 20px;
+    padding: 5px 0px 5px 10px;
 }
