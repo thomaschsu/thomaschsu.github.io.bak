@@ -61,6 +61,7 @@ h1 {
     padding: 40px 20px;
     border: 1px #ddd;
     border-style: solid;
+    height: 500px
 }
 .footer {
     padding: 30px;
@@ -72,4 +73,19 @@ h1 {
     border-top: 5px #4aaaa5;
     border-style: solid;
     font-size: 12px;
+    height: 50px;
+}
+.footer-fix {
+    min-height: calc(90vh - 70px);
+}
+a:visited {
+    text-decoration: none;
+    color: #777;
+    text-under
+}
+a:hover {
+    color: #4aaaa5;
+}
+p {
+    line-height: 2;
 }
