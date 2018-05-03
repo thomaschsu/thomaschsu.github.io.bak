@@ -17,6 +17,10 @@ li:nth-child(2) {
     padding: 28px;
     color: #fff;
     font-size: 30px;
+    font-weight: 600;
+}
+.banner-name:hover{
+    background-color:  #22524f;
 }
 .nav-links{
     float:right;
@@ -33,6 +37,9 @@ li:nth-child(2) {
     height:150px;
     float: left;
     margin-right: 20px;
+}
+#profile:hover {
+    opacity:0.5;
 }
 .navigation{
     background-color:#fff;
@@ -54,7 +61,8 @@ h1 {
     margin-bottom: 20px;
     border-bottom: 2px #ccc;
     border-style: solid;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+    font-weight: 600;
 }
 h2 {
     color: #777;
@@ -75,7 +83,7 @@ h2 {
     margin-top: 30px;
     background-color: #666;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    border-top: 5px #4aaaa5;
+    border-top: 7px #4aaaa5;
     border-style: solid;
     font-size: 12px;
     height: 50px;
@@ -99,4 +107,8 @@ input {
     margin: 10px 0;
     height: 20px;
     padding: 5px 0px 5px 10px;
+}
+textarea {
+    height: 200px;
+    width: 100%;
 }
