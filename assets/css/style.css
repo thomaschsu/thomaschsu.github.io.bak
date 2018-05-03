@@ -1,13 +1,11 @@
 body {
     background-image:url("../images/background.png");
 }
-
 li {
     display: inline;
     margin: 0 10px;
 }
-li:nth-child(1),
-li:nth-child(2) {
+li:nth-child(1), li:nth-child(2) {
     border-right: 1px #777;
     border-style: solid;
     padding-right: 20px;
@@ -20,7 +18,7 @@ li:nth-child(2) {
     font-weight: 600;
 }
 .banner-name:hover{
-    background-color:  #22524f;
+    background-color: #22524f;
 }
 .nav-links{
     float:right;
@@ -30,7 +28,6 @@ li:nth-child(2) {
     width: 960px;
     margin: 0 auto;
 }
-
 #profile {
     border-radius: 50%;
     width:150px;
@@ -47,6 +44,9 @@ li:nth-child(2) {
     margin-bottom: 40px;
     border-bottom: 2px #ccc;
     border-style: solid;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 p, li {
     color: #777;
@@ -74,7 +74,8 @@ h2 {
     padding: 40px 20px;
     border: 1px #ddd;
     border-style: solid;
-    height: 500px
+    height: 500px;
+    margin-top: 150px;
 }
 .footer {
     padding: 30px;
@@ -94,7 +95,7 @@ h2 {
 a:visited {
     text-decoration: none;
     color: #777;
-    text-under
+    text-under 
 }
 a:hover {
     color: #4aaaa5;
