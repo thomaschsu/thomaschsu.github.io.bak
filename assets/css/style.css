@@ -19,6 +19,8 @@ li:nth-child(1), li:nth-child(2) {
 }
 .banner-name:hover{
     background-color: #22524f;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
 }
 .nav-links{
     float:right;
@@ -37,6 +39,8 @@ li:nth-child(1), li:nth-child(2) {
 }
 #profile:hover {
     opacity:0.5;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
 }
 .navigation{
     background-color:#fff;
@@ -99,6 +103,8 @@ a:visited {
 }
 a:hover {
     color: #4aaaa5;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
 }
 p {
     line-height: 2;
