@@ -19,3 +19,8 @@ p {
     transform: translate(-50%, -50%);
     font-size: 19px;
 }
+.portfolio:hover {
+    opacity:0.5;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
