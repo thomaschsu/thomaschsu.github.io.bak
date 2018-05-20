@@ -19,6 +19,9 @@ p {
 .footer-fix {
     min-height: calc(80vh - 70px);
 }
+.footer {
+    background-color: #455A64;
+}
 .img-banner {
     top: 80%;
     left: 50%;
