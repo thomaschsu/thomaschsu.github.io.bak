@@ -1,46 +1,70 @@
 <!DOCTYPE html>
 <html lang="en-us">
    <head>
-      <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta charset="UTF-8">
       <title>About - Tom Hsu</title>
-      <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
       <link rel="stylesheet" type="text/css" href="assets/css/style.css">
    </head>
    <body>
-      <header>
-         <nav>
-            <div class="navigation" id="navigation">
-               <div class="width-fix">
-                  <span class="banner-name">Tom Hsu</span>
-                  <ul class="nav-links">
-                     <li style="font-weight:600;">About</li>
-                     <li><a href="portfolio.html" style="text-decoration: none;">Portfolio</a></li>
-                     <li><a href="contact.html" style="text-decoration: none">Contact</a></li>
-                  </ul>
+      <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-info border-bottom border-dark">
+         <div class="container">
+            <span class="navbar-brand m0 h1 text-white">Tom Hsu</span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active border-right border-white font-weight-light">
+                     <a class="nav-link mx-2" href="#">About<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link text-white border-right border-white mx-2" href="portfolio.html">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link text-white mx-2" href="contact.html">Contact</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <div class="alert alert-success alert-dismissible fade show text-center" role="alert">
+         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+         <span aria-hidden="true">&times;</span>
+         </button>
+         <strong>Hello there!</strong> Welcome to my Bootstrap portfolio. Here you will find out what I have created and what I am currently creating... Interested? Awesome.
+      </div>
+      <div class="footer-fix">
+         <div class="container bg-light border mt-5">
+            <div class="row">
+               <div class="col-sm-12">
+                  <h4 class="border-bottom py-4">About Me</h4>
                </div>
             </div>
-         </nav>
-      </header>
-      <div class="footer-fix">
-         <div class="width-fix">
-            <div class="body-white">
-               <h1>About Me</h1>
-               <img id="profile" src="profile/Profile.jpg" alt="Tom Hsu">
-               <p>Tom graduated from Rutgers University in 2012 with a major in Information Technology. After graduation, he worked at a company called MRA International for 5 years.
-                  Starting in sales, he quickly moved into the role of an IT Technician. This involved repairing computers as well as imaging them for many school districts.
-                  Eventually his role switched over to Website Administration, and worked on the company's website and ecommerce store front.
-                  He worked in both Magento 1 and 2, as well as WordPress.
-               </p>
-               <br>
-               <p>
-                  On his free time, he likes to drink booze, play video games, watch movies, and work out (in that order). He is knowledgeable in headphones and spends a lot of money on them. He currently owns two high end headphones: Fostex TH900 and Focal Elear, but wasted a lot of money on others in the past (all sold already).
-                  He regularly uses the RHA T20 IEM's. His AMP and DAC are the following: Burson Soloist / Schiit BiFrost Multibit. He likes to listen to EDM, Hip-Hop, Rap, Pop, Rock. Tom also enjoys reading about car news and drives a Genesis Coupe.
-               </p>
+            <div class="row">
+               <div class="col-sm-4 py-4 text-center">
+                  <img src="profile/Profile.jpg" class="rounded-circle mr-3 img-fluid img-fluid w-50" alt="Tom Hsu">
+               </div>
+               <div class="col-sm-8 py-4">
+                  <p>Tom graduated from Rutgers University in 2012 with a major in Information Technology. After graduation, he worked at a company called MRA International for 5 years. Starting in sales, he quickly moved into the role of an IT Technician. This involved repairing computers as well as imaging them for many school districts. Eventually his role switched over to Website Administration, and worked on the company's website and ecommerce store front. He worked in both Magento 1 and 2, as well as WordPress.</p>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-12 py-4">
+                  <p>On his free time, he likes to drink booze, play video games, watch movies, and work out (in that order). He is knowledgeable in headphones and spends a lot of money on them.
+                     He currently owns two high end headphones: Fostex TH900 and Focal Elear, but wasted a lot of money on others in the past (all sold already). He regularly uses the RHA T20 IEM's.
+                     His AMP and DAC are the following: Burson Soloist / Schiit BiFrost Multibit. He likes to listen to EDM, Hip-Hop, Rap, Pop, Rock. Tom also enjoys reading about car news and drives a Genesis Coupe.
+                  </p>
+               </div>
             </div>
          </div>
       </div>
-      <footer class="footer">
-         Copyright &copy; Tom Hsu
+      <footer class="footer bg-dark py-5 mt-5 border-top border-info">
+         <div class="container text-center">
+            <span class="text-white small text-center text-uppercase">Copyright &copy; Tom Hsu</span>
+         </div>
       </footer>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
    </body>
 </html>

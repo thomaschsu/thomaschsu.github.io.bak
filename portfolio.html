@@ -1,52 +1,89 @@
 <!DOCTYPE html>
 <html lang="en-us">
    <head>
-      <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta charset="UTF-8">
       <title>Portfolio - Tom Hsu</title>
-      <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
       <link rel="stylesheet" type="text/css" href="assets/css/style.css">
    </head>
    <body>
-      <header>
-         <nav>
-            <div class="navigation">
-               <div class="width-fix">
-                  <span class="banner-name">Tom Hsu</span>
-                  <ul class="nav-links">
-                     <li><a href="index.html" style="text-decoration: none;">About</a></li>
-                     <li style="font-weight:600;">Portfolio</li>
-                     <li><a href="contact.html" style="text-decoration: none">Contact</a></li>
-                  </ul>
-               </div>
-            </div>
-         </nav>
-      </header>
-      <div class="footer-fix">
-         <div class="width-fix">
-            <div class="body-white">
-               <h1>Portfolio</h1>
-               <br>
-               <table>
-                <tbody>
-                <tr>
-                <td><div class="container"><img src="assets/images/portfolio1.jpg" height="200px"><div class="centered">Portfolio 1</div></div></td>
-                <td><div class="container"><img src="assets/images/portfolio2.jpg" height="200px"><div class="centered">Portfolio 2</div></div></td>
-                </tr>
-                <tr>
-                    <td><div class="container"><img src="assets/images/portfolio3.jpg" height="200px"><div class="centered">Portfolio 3</div></div></td>
-                    <td><div class="container"><img src="assets/images/portfolio4.jpg" height="200px"><div class="centered">Portfolio 4</div></div></td>
-                </tr>
-                <tr>
-                    <td><div class="container"><img src="assets/images/portfolio5.jpg" height="200px"><div class="centered">Portfolio 5</div></div></td>
-                    <td></td>
-                </tr>
-                </tbody>
-                </table>
+      <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-info border-bottom border-dark">
+         <div class="container">
+            <span class="navbar-brand m0 h1 text-white">Tom Hsu</span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active border-right border-white font-weight-light">
+                     <a class="nav-link text-white mx-2" href="index.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link border-right border-white mx-2" href="#">Portfolio<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link text-white mx-2" href="contact.html">Contact</a>
+                  </li>
+               </ul>
             </div>
          </div>
+      </nav>
+      <div style="min-height: calc(80vh - 70px);">
+         <div class="container bg-light border mt-5">
+            <div class="row">
+               <div class="col-sm-12">
+                  <h4 class="border-bottom py-4">Portfolio</h4>
+               </div>
+            </div>
+            <table class="my-5">
+               <tbody>
+                  <tr>
+                     <td>
+                        <div class="text-center position-relative">
+                           <img src="assets/images/portfolio1.jpg" class="img-fluid w-75 my-2" alt="port1">
+                           <div class="text-center position-absolute text-white bg-info w-75 py-2 img-banner">Portfolio 1</div>
+                        </div>
+                     </td>
+                     <td>
+                        <div class="text-center position-relative">
+                           <img src="assets/images/portfolio2.jpg" class="img-fluid w-75 my-2" alt="port2">
+                           <div class="text-center position-absolute text-white bg-info w-75 py-2 img-banner">Portfolio 2</div>
+                        </div>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class="text-center position-relative">
+                           <img src="assets/images/portfolio3.jpg" class="img-fluid w-75 my-2" alt="port3">
+                           <div class="text-center position-absolute text-white bg-info w-75 py-2 img-banner">Portfolio 3</div>
+                        </div>
+                     </td>
+                     <td>
+                        <div class="text-center position-relative">
+                           <img src="assets/images/portfolio4.jpg" class="img-fluid w-75 my-2" alt="port4">
+                           <div class="text-center position-absolute text-white bg-info w-75 py-2 img-banner">Portfolio 4</div>
+                        </div>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class="text-center position-relative">
+                           <img src="assets/images/portfolio5.jpg" class="img-fluid w-75 my-2" alt="port5">
+                           <div class="text-center position-absolute text-white bg-info w-75 py-2 img-banner">Portfolio 5</div>
+                        </div>
+                     </td>
+                     <td></td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
       </div>
-      <footer class="footer">
-         Copyright &copy; Tom Hsu
+      <footer class="footer bg-dark py-5 mt-5 border-top border-info">
+         <div class="container text-center">
+            <span class="text-white small text-center text-uppercase">Copyright &copy; Tom Hsu</span>
+         </div>
       </footer>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
    </body>
 </html>
