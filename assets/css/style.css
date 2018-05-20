@@ -43,5 +43,5 @@ p {
         background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
 }
 .email-nav {
-    text-decoration: none;
+    text-decoration: none !important;
 }
