@@ -1,5 +1,7 @@
 body {
     background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .navbar {
     background-color: #2196F3;
