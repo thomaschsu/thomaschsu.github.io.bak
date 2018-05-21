@@ -52,3 +52,6 @@ p {
 .email-nav {
     text-decoration: none !important;
 }
+.navbar-brand {
+    position: relative;
+}
