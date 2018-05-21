@@ -1,4 +1,4 @@
-$(document).ready(function(){
-    $("#navbar-container").hide().fadeIn("slow");
-    $("#main-container").hide().fadeIn("slow");
+$(function(){
+    $("#navbar-container").hide().fadeIn(2000);
+    $("#main-container").hide().fadeIn(2000);
  });
