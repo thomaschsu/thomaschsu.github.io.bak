@@ -39,6 +39,11 @@ p {
     transition: all .4s ease;
     -webkit-transition: all .4s ease;
 }
+#img-me:hover {
+    opacity:0.5;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
 .body-container {
         display: table;
         width: 100%;
