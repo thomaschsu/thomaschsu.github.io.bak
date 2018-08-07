@@ -6,13 +6,13 @@ My all-mighty portfolio. Read a small bio about me, look at my portfolio, or con
 - - -
 ### Screenshots
 
-* Main page
+##### Main page
 ![Image 1](/images/image01.jpg)
 
-* Portfolio page
+##### Portfolio page
 ![Image 2](/images/image02.jpg)
 
-* Contact page
+##### Contact page
 ![Image 3](/images/image03.jpg)
 
 - - -
