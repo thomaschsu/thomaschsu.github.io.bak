@@ -1,19 +1,11 @@
-# thomaschsu.github.io
+# thomaschsu.github.io - Portfolio
 
 ### Description
-My all-mighty portfolio. Read a small bio about me, look at my portfolio, or contact me directly. You can find all the information you need.
+My "most-up-to-date" portfolio. Read a small biography about me, look at my portfolio, or contact me directly. You can find all the information you need. This portfolio will always be in-progress as I will constantly want to change the look and feel as I am growing in knowledge.
 
 - - -
 ### Screenshots
-
-##### Main page
-![Image 1](/images/image01.jpg)
-
-##### Portfolio page
-![Image 2](/images/image02.jpg)
-
-##### Contact page
-![Image 3](/images/image03.jpg)
+![Image 1](/images/image01.gif)
 
 - - -
 
