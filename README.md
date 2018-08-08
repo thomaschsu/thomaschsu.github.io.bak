@@ -17,5 +17,6 @@ My "most-up-to-date" portfolio. Read a small biography about me, look at my port
 4. Photoshop
 
 - - - 
+
 ### Live Link
 https://thomaschsu.github.io/
