@@ -1,6 +1,13 @@
-$(function(){
-    $("#main-container").hide().fadeIn(2000);
-    $("#alert-msg").hide().fadeIn(2000);
-    var navbar = $(".navbar-brand");
-    navbar.animate({fontSize: '30px'}, "slow");
- });
+// Drop down for navbar
+$(".dropdown-trigger").dropdown();
+
+// Smooth scroll
+$("a[href^='#']").click(function(e) {
+  e.preventDefault();
+
+  var position = $($(this).attr("href")).offset().top;
+
+  $("body, html").animate({
+      scrollTop: position
+  } /* speed */ );
+});
