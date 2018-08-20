@@ -11,3 +11,7 @@ $("a[href^='#']").click(function(e) {
       scrollTop: position
   } /* speed */ );
 });
+
+$(document).ready(function(){
+  $('.collapsible').collapsible();
+});
