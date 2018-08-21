@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 </head>
 
 <body>
@@ -29,7 +30,7 @@
                 <ul class="right hide-on-med-and-down">
                     <li><a href="index.html" class="white-text">about</a></li>
                     <li><a href="index.html#contact" class="white-text">contact</a></li>
-                    <li><a href="resume.html" class="white-text">resume</a></li>
+                    <li><a href="resume.html" class="white-text selected">resume <span class="new badge red"></span></a></li>
                     <li><a class="dropdown-trigger white-text" href="#!" data-target="dropdown1">portfolio<i class="material-icons right">arrow_drop_down</i></a></li>
                     <li><a class="waves-effect waves-light btn green pulse" href="mailto:thomaschsu@gmail.com">email me <i
                                 class="material-icons right" class="white-text">mail</i></a></li>
@@ -225,41 +226,43 @@
                 class="c7">Psychology</span></p>
     </div>
     <footer class="page-footer grey darken-2">
-        <div class="container">
-            <div class="row">
-                <div class="col l6 s12">
-                    <h5 class="white-text">Tom Hsu</h5>
-                    <p class="grey-text text-lighten-4">I hope you like what you see. If you want to contact me for any work,
-                        use the email button below. Just incase, my email is: thomaschsu@gmail.com.
-                    </p>
-                    <a class="waves-effect waves-light btn green pulse" href="mailto:thomaschsu@gmail.com">email me <i class="material-icons right"
-                            class="white-text">mail</i></a>
-                </div>
-                <div class="col l3 s12">
-                    <h5 class="white-text">navigate</h5>
-                    <ul>
-                        <li><a class="white-text" href="index.html">about</a></li>
-                        <li><a class="white-text" href="#contact">contact</a></li>
-                        <li><a class="white-text" href="#!">portfolio</a></li>
-                        <li><a class="white-text" href="#!">resume</a></li>
-                    </ul>
-                </div>
-                <div class="col l3 s12">
-                    <h5 class="white-text">connect</h5>
-                    <ul>
-                        <li><a class="white-text" href="https://github.com/thomaschsu">GitHub</a></li>
-                        <li><a class="white-text" href="mailto:thomaschsu@gmail.com">Email</a></li>
-                        <li><a class="white-text" href="https://linkedin.com/in/tomchsu">LinkedIn</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="footer-copyright">
             <div class="container">
-                Copyright &copy; Tom Hsu 2018
+               <div class="row">
+                  <div class="col l6 s12">
+                     <h5 class="white-text">Tom Hsu</h5>
+                     <p class="grey-text text-lighten-4">I hope you like what you see. If you want to contact me for any work, use the
+                        email button below. Just incase, my email is: thomaschsu@gmail.com.
+                     </p>
+                     <a class="waves-effect waves-light btn green pulse" href="mailto:thomaschsu@gmail.com">email me <i class="material-icons right"
+                        class="white-text">mail</i></a>
+                  </div>
+                  <div class="col l3 s12">
+                     <h5 class="white-text">navigate</h5>
+                     <ul>
+                           <div class="collection">
+                           <a href="index.html" class="collection-item">about</a>
+                           <a href="index.html/#contact" class="collection-item">contact</a>
+                           <a href="portfolio.html" class="collection-item">portfolio</a>
+                           <a href="resume.html" class="collection-item active">resume</a>
+                           </div>
+                     </ul>
+                  </div>
+                  <div class="col l3 s12">
+                     <h5 class="white-text">connect</h5>
+                     <ul>
+                        <li><a class="white-text" href="https://github.com/thomaschsu"><i class="fab fa-github"></i> GitHub</a></li>
+                        <li><a class="white-text" href="mailto:thomaschsu@gmail.com"><i class="fas fa-envelope"></i> Email</a></li>
+                        <li><a class="white-text" href="https://linkedin.com/in/tomchsu"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                     </ul>
+                  </div>
+               </div>
             </div>
-        </div>
-    </footer>
+            <div class="footer-copyright">
+               <div class="container">
+                  Copyright &copy; Tom Hsu 2018
+               </div>
+            </div>
+         </footer>
     <!--  Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="assets/js/materialize.js"></script>

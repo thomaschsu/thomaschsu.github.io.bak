@@ -7,6 +7,7 @@
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <link href="assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
       <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
    </head>
    <body>
       <nav class="blue darken-2 nav-border" role="navigation">
@@ -25,7 +26,7 @@
          </ul>
          <div class="blue darken-1">
             <ul class="right hide-on-med-and-down">
-               <li><a href="#about" class="white-text">about</a></li>
+               <li><a href="#about" class="white-text selected">about</a></li>
                <li><a href="#contact" class="white-text">contact</a></li>
                <li><a href="resume.html" class="white-text">resume <span class="new badge red"></span></a></li>
                <li><a class="dropdown-trigger white-text" href="#!" data-target="dropdown1">portfolio<i class="material-icons right">arrow_drop_down</i></a></li>
@@ -166,7 +167,7 @@
                      <label for="textarea1">What's on your mind?</label>
                      </div>
                      </div>
-                     <button class="btn-floating btn-medium pulse blue left" type="submit" name="action"><i class="material-icons right">send</i>
+                     <button onclick="M.toast({html: 'Message Sent'})" class="btn-floating btn-medium pulse blue left" type="submit" name="action"><i class="material-icons right">send</i>
                      </button>
                      </form>
                      </div>
@@ -190,18 +191,20 @@
                <div class="col l3 s12">
                   <h5 class="white-text">navigate</h5>
                   <ul>
-                     <li><a class="white-text" href="#about">about</a></li>
-                     <li><a class="white-text" href="#contact">contact</a></li>
-                     <li><a class="white-text" href="portfolio.html">portfolio</a></li>
-                     <li><a class="white-text" href="resume.html">resume</a></li>
+                        <div class="collection">
+                        <a href="#about" class="collection-item active">about</a>
+                        <a href="#contact" class="collection-item">contact</a>
+                        <a href="portfolio.html" class="collection-item">portfolio</a>
+                        <a href="resume.html" class="collection-item">resume</a>
+                        </div>
                   </ul>
                </div>
                <div class="col l3 s12">
                   <h5 class="white-text">connect</h5>
                   <ul>
-                     <li><a class="white-text" href="https://github.com/thomaschsu">GitHub</a></li>
-                     <li><a class="white-text" href="mailto:thomaschsu@gmail.com">Email</a></li>
-                     <li><a class="white-text" href="https://linkedin.com/in/tomchsu">LinkedIn</a></li>
+                     <li><a class="white-text" href="https://github.com/thomaschsu"><i class="fab fa-github"></i> GitHub</a></li>
+                     <li><a class="white-text" href="mailto:thomaschsu@gmail.com"><i class="fas fa-envelope"></i> Email</a></li>
+                     <li><a class="white-text" href="https://linkedin.com/in/tomchsu"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
                   </ul>
                </div>
             </div>
