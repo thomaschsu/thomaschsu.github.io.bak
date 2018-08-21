@@ -61,6 +61,12 @@ a:hover::after {
   width: 15%;
 }
 
+.profile:hover {
+    opacity: 0.80;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
