@@ -81,6 +81,10 @@ a:hover::after {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
+.square {
+    list-style-type: square !important;
+}
+
 /* Mouse CSS */
 .mouse {
   max-width: 2.5rem;
