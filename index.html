@@ -152,43 +152,44 @@
          <div class="parallax"><img src="assets/images/background3.jpg" alt="Unsplashed background img 2"></div>
       </div>
       <div class="container">
-      <div class="section">
-         <div class="row">
-            <div class="col s12 center">
-               <h3><i class="mdi-content-send brown-text"></i></h3>
-               <h4 id="contact" class="light">Contact</h4>
-               <div class="row">
-                  <form class="col s12" action="https://getsimpleform.com/messages?form_api_token=ae06f54ebd564829ee11a8047bbbf905" method="post">
-                     <div class="row">
-                        <div class="input-field col s6">
-                           <i class="material-icons prefix">account_circle</i>
-                           <input type="text" name="name" class="validate">
-                           <label for="name">Name</label>
-                        </div>
-                     </div>
-                     <div class="row">
-                        <div class="input-field col s6">
-                           <i class="material-icons prefix">mail</i>
-                           <input type="email" name="email" class="validate">
-                           <label for="email">Email</label>
-                        </div>
-                     </div>
-                     <div class="row">
-                  <form class="col s12">
+         <div class="section">
+            <div class="row">
+               <div class="col s12 center">
+                  <h3><i class="mdi-content-send brown-text"></i></h3>
+                  <h4 id="contact" class="light">Contact</h4>
                   <div class="row">
-                  <div class="input-field col s12">
-                  <textarea name="message" class="materialize-textarea"></textarea>
-                  <label for="message">What's on your mind?</label>
-                  </div>
-                  </div>
-                  <button onclick="M.toast({html: 'Message Sent'})" class="btn-floating btn-medium pulse blue left" type="submit"><i
+                     <form class="col s12" action="https://getsimpleform.com/messages?form_api_token=ae06f54ebd564829ee11a8047bbbf905" method="post">
+                        <div class="row">
+                           <div class="input-field col s6">
+                              <i class="material-icons prefix">account_circle</i>
+                              <input id="name" name="name" type="text" class="validate">
+                              <label for="name">Name</label>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="input-field col s6">
+                              <i class="material-icons prefix">mail</i>
+                              <input id="email" name="email" type="email" class="validate">
+                              <label for="email">Email</label>
+                           </div>
+                        </div>
+                        <div class="row">
+                     <form class="col s12">
+                     <div class="row">
+                     <div class="input-field col s12">
+                     <textarea id="textarea1" name="textarea1" class="materialize-textarea"></textarea>
+                     <label for="textarea1">What's on your mind?</label>
+                     </div>
+                     </div>
+                     <button onclick="M.toast({html: 'Message Sent'})" class="btn-floating btn-medium pulse blue left" type="submit" name="submit"><i
                         class="material-icons right">send</i>
-                </button>
-                  </form>
+                     </button>
+                     </form>
+                     </div>
+                     </form>
                   </div>
                </div>
             </div>
-         </div>
          </div>
       </div>
       <footer class="page-footer grey darken-2">
@@ -196,9 +197,9 @@
             <div class="row">
                <div class="col l6 s12">
                   <h5 class="white-text light">Tom Hsu</h5>
-                  <p class="grey-text text-lighten-4">I hope you like what you see. If you want to contact
-                     me for anything - work or you just want to talk, use the email button below. Incase
-                     that doesn't work, my email is thomaschsu@gmail.com.
+                  <p class="grey-text text-lighten-4">I hope you like what you see. If you want to contact me
+                     for anything - work or you just want to talk, use the email button below. Incase that
+                     doesn't work, my email is thomaschsu@gmail.com.
                   </p>
                   <a class="waves-effect waves-light btn green pulse" href="mailto:thomaschsu@gmail.com">email
                   me <i class="material-icons right" class="white-text">mail</i></a>
