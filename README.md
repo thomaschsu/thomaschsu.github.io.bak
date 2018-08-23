@@ -1,9 +1,9 @@
 # thomaschsu.github.io - Portfolio
 
 ### Description
-My "most-up-to-date" portfolio. Read a small biography about me, look at my portfolio, or contact me directly. You can find all the information you need. This portfolio will always be "in-progress" as am constantly changing the look and feel.
+My "most-up-to-date" portfolio. Read a small biography about me, look at my portfolio, or contact me directly. You can find all the information you need. This portfolio will always be "in-progress" as I am constantly changing the look and feel.
 
-Please note that my current portfolio is a work in-progress. The demo image below will be broken. I am currently transitioning from Bootstrap to Materialize. I hope you like the changes.
+Please note that my current portfolio is a work in-progress. The demo image below will be broken. I am currently transitioning from Bootstrap to Materialize. I hope you like the changes!
 
 - - -
 
