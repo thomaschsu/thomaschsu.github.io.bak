@@ -14,7 +14,7 @@ Please note that my current portfolio is a work in-progress. The demo image belo
 
 ### Skills Used
 1. HTML
-2. CSS / Bootstrap
+2. CSS / Materialize
 3. JQuery
 4. Photoshop
 
