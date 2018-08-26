@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
+
+<head>
       <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon">
       <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon">
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -10,232 +11,243 @@
       <link href="assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
       <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-         crossorigin="anonymous">
-   </head>
-   <body>
+            crossorigin="anonymous">
+</head>
+
+<body>
       <nav class="blue darken-2 nav-border" role="navigation">
-         <div class="nav-wrapper container">
-         <span id="logo-container" class="brand-logo light white-text text-shadow">Tom Hsu</span>
-         <ul id="dropdown1" class="dropdown-content">
-            <li><a href="https://github.com/thomaschsu/good-movies" class="black-text">Goodmovies </a></li>
-            <li class="divider"></li>
-            <li><a href="https://github.com/thomaschsu/friend-finder" class="black-text">Friend Finder</a></li>
-            <li class="divider"></li>
-            <li><a href="https://github.com/thomaschsu/liri-node-app" class="black-text">Liri Node App</a></li>
-            <li class="divider"></li>
-            <li><a href="https://github.com/thomaschsu/bamazon-mysql" class="black-text">Bamazon MySQL App</a></li>
-            <li class="divider"></li>
-            <li><a href="portfolio.html" class="black-text">View All</a></li>
-         </ul>
-         <div class="blue darken-1">
-            <ul class="right hide-on-med-and-down">
-               <li><a href="#" class="white-text selected light">about</a></li>
-               <li><a href="#contact" class="white-text light">contact</a></li>
-               <li><a href="resume.html" class="white-text light">resume <span class="new badge red"></span></a></li>
-               <li><a class="dropdown-trigger white-text light" href="#!" data-target="dropdown1">portfolio<i
-                  class="material-icons right">arrow_drop_down</i></a></li>
-               <li><a class="waves-effect waves-light btn green pulse hoverable" href="mailto:thomaschsu@gmail.com">email
-                  me <i class="material-icons right" class="white-text light">mail</i></a>
-               </li>
-            </ul>
-         </div>
+            <div class="nav-wrapper container">
+                  <div class="show-on-small">
+                        <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
+                        <ul id="slide-out" class="sidenav">
+                              <li><a class="subheader">About</a></li>
+                              <li><a class="waves-effect" href="#contact">Contact</a></li>
+                              <li><a class="waves-effect" href="resume.html">Resume</a></li>
+                              <li><a class="waves-effect" href="portfolio.html">Portfolio</a></li>
+                        </ul>
+                  </div>
+                  <span id="logo-container" class="brand-logo light white-text text-shadow">Tom Hsu</span>
+                  <ul id="dropdown1" class="dropdown-content">
+                        <li><a href="https://github.com/thomaschsu/good-movies" class="black-text">Goodmovies </a></li>
+                        <li class="divider"></li>
+                        <li><a href="https://github.com/thomaschsu/friend-finder" class="black-text">Friend Finder</a></li>
+                        <li class="divider"></li>
+                        <li><a href="https://github.com/thomaschsu/liri-node-app" class="black-text">Liri Node App</a></li>
+                        <li class="divider"></li>
+                        <li><a href="https://github.com/thomaschsu/bamazon-mysql" class="black-text">Bamazon MySQL App</a></li>
+                        <li class="divider"></li>
+                        <li><a href="portfolio.html" class="black-text">View All</a></li>
+                  </ul>
+                  <div class="blue darken-1">
+                        <ul class="right hide-on-med-and-down">
+                              <li><a href="#" class="white-text selected light">about</a></li>
+                              <li><a href="#contact" class="white-text light">contact</a></li>
+                              <li><a href="resume.html" class="white-text light">resume <span class="new badge red"></span></a></li>
+                              <li><a class="dropdown-trigger white-text light" href="#!" data-target="dropdown1">portfolio<i
+                                                class="material-icons right">arrow_drop_down</i></a></li>
+                              <li><a class="waves-effect waves-light btn green pulse hoverable" href="mailto:thomaschsu@gmail.com">email
+                                          me <i class="material-icons right" class="white-text light">mail</i></a>
+                              </li>
+                        </ul>
+                  </div>
       </nav>
       <div id="index-banner" class="parallax-container">
-         <div class="section no-pad-bot">
-            <div class="container">
-               <br><br>
-               <h2 class="header center white-text text-lighten-2 light text-shadow">howdy</h2>
-               <div class="row center">
-                  <img src="assets/images/profile.jpg" class="circle responsive-img profile">
-                  <h5 class="header col s12 light text-shadow">My name is Tom and I'm a front-end web developer.</h5>
-               </div>
-               <div class="row center">
-                  <a class="scroll-link" href="#about">
-                     <svg class="mouse" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76 130" preserveAspectRatio="xMidYMid meet">
-                        <g fill="none" fill-rule="evenodd">
-                           <rect width="70" height="118" x="1.5" y="1.5" stroke="#FFF" stroke-width="3" rx="36" />
-                           <circle class="scroll" cx="36.5" cy="31.5" r="4.5" fill="#FFF" />
-                        </g>
-                     </svg>
-                  </a>
-               </div>
+            <div class="section no-pad-bot">
+                  <div class="container">
+                        <br><br>
+                        <h2 class="header center white-text text-lighten-2 light text-shadow">howdy</h2>
+                        <div class="row center">
+                              <img src="assets/images/profile.jpg" class="circle responsive-img profile">
+                              <h5 class="header col s12 light text-shadow">My name is Tom and I'm a front-end web developer.</h5>
+                        </div>
+                        <div class="row center">
+                              <a class="scroll-link" href="#about">
+                                    <svg class="mouse" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76 130" preserveAspectRatio="xMidYMid meet">
+                                          <g fill="none" fill-rule="evenodd">
+                                                <rect width="70" height="118" x="1.5" y="1.5" stroke="#FFF" stroke-width="3" rx="36" />
+                                                <circle class="scroll" cx="36.5" cy="31.5" r="4.5" fill="#FFF" />
+                                          </g>
+                                    </svg>
+                              </a>
+                        </div>
+                  </div>
             </div>
-         </div>
-         <div class="parallax"><img src="assets/images/background1.jpg" alt="Unsplashed background img 1"></div>
+            <div class="parallax"><img src="assets/images/background1.jpg" alt="Unsplashed background img 1"></div>
       </div>
       <div class="container">
-         <div class="section">
-            <!--   Icon Section   -->
-            <div class="row">
-               <div class="col s12 m4">
-                  <div class="icon-block">
-                     <h2 class="center blue-text"><i class="material-icons">developer_mode</i></h2>
-                     <h5 class="center light">Experienced</h5>
-                     <p>Proven experience in developing user-friendly websites and web applications.
-                     </p>
-                  </div>
-               </div>
-               <div class="col s12 m4">
-                  <div class="icon-block">
-                     <h2 class="center green-text"><i class="material-icons">language</i></h2>
-                     <h5 class="center light">Languages</h5>
-                     <p>Well-versed in various programming languages including JavaScript, HTML, CSS, Node,
-                        jQuery, MySQL and more.
-                     </p>
-                  </div>
-               </div>
-               <div class="col s12 m4">
-                  <div class="icon-block">
-                     <h2 class="center red-text"><i class="material-icons">bug_report</i></h2>
-                     <h5 class="center light">Debugger</h5>
-                     <p>A proactive professional who enjoys systematically testing websites for bugs and debugging
-                        errors.
-                     </p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div class="parallax-container valign-wrapper">
-         <div class="section no-pad-bot">
-            <div class="container">
-               <div class="row center">
-                  <h5 class="header col s12 light text-shadow">I have a tricolor Pembroke Welsh Corgi. His name
-                     is Cocoa.
-                  </h5>
-               </div>
-            </div>
-         </div>
-         <div class="parallax"><img src="assets/images/background2.jpg" alt="Unsplashed background img 2"></div>
-      </div>
-      <div class="container">
-         <div class="section">
-            <div class="row">
-               <div class="col s12 center">
-                  <h3><i class="mdi-content-send brown-text"></i></h3>
-                  <h4 id="about" class="light">About</h4>
-                  <p class="left-align">Tom is currently a student at Rutgers studying to become a full stack
-                     developer. He is an experienced Front-End Web Developer with a proven background in developing
-                     user-friendly websites and web applications. He is well-versed in various programming
-                     languages including JavaScript, HTML, CSS, Node, and more.
-                  </p>
-                  <p class="left-align">Tom graduated from Rutgers University in 2011 with a major in Information
-                     Technology. After graduation, he worked at MRA International for 5 years. He took a lead
-                     role in the production and maintenance of a front end Magento and WordPress company website.
-                     This included implementing a PunchOut catalog, systematically testing the website for
-                     bugs, and managing the backend Magento catalog. Tom was also responsible for building
-                     and managing graphics for the front end. He also provided client services in a massive
-                     company project that required imaging thousands of laptops and desktops for Elizabeth
-                     school districts all within tight time constraints.
-                  </p>
-                  <p class="left-align">On his free time, he likes to take care of his dog, drink, play video
-                     games, watch movies / tv shows / anime, and exercise. He is knowledgeable in headphones
-                     - music has always been a big part of his life. He currently owns the Fostex TH900, Focal
-                     Elear, and Sennheiser HD 58X Jubilee headphones. His “go-to” earbud is the RHA T20 IEM's,
-                     but also has the Tin Audio T2. His AMP and DAC of choice are the Burson Soloist and Schiit
-                     BiFrost Multibit. He likes to listen to EDM, Hip-Hop, Rap, Pop, Rock, and occasionally
-                     classical. Tom also enjoys reading about car news and currently drives a Genesis Coupe
-                     and is hoping to one day own a BMW M2.
-                  </p>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div class="parallax-container valign-wrapper">
-         <div class="section no-pad-bot">
-            <div class="container">
-               <div class="row center">
-                  <h5 class="header col s12 light text-shadow">I own the Fostex TH900, Focal Elear, and Sennheiser
-                     HD58X Jubilee. Let's talk about headphones.
-                  </h5>
-               </div>
-            </div>
-         </div>
-         <div class="parallax"><img src="assets/images/background3.jpg" alt="Unsplashed background img 2"></div>
-      </div>
-      <div class="container">
-         <div class="section">
-            <div class="row">
-               <div class="col s12 center">
-                  <h3><i class="mdi-content-send brown-text"></i></h3>
-                  <h4 id="contact" class="light">Contact</h4>
+            <div class="section">
+                  <!--   Icon Section   -->
                   <div class="row">
-                     <form class="col s12" action="https://getsimpleform.com/messages?form_api_token=ae06f54ebd564829ee11a8047bbbf905" method="post">
-                        <div class="row">
-                           <div class="input-field col s6">
-                              <i class="material-icons prefix">account_circle</i>
-                              <input id="name" name="name" type="text" class="validate">
-                              <label for="name">Name</label>
-                           </div>
+                        <div class="col s12 m4">
+                              <div class="icon-block">
+                                    <h2 class="center blue-text"><i class="material-icons">developer_mode</i></h2>
+                                    <h5 class="center light">Experienced</h5>
+                                    <p>Proven experience in developing user-friendly websites and web applications.
+                                    </p>
+                              </div>
                         </div>
-                        <div class="row">
-                           <div class="input-field col s6">
-                              <i class="material-icons prefix">mail</i>
-                              <input id="email" name="email" type="email" class="validate">
-                              <label for="email">Email</label>
-                           </div>
+                        <div class="col s12 m4">
+                              <div class="icon-block">
+                                    <h2 class="center green-text"><i class="material-icons">language</i></h2>
+                                    <h5 class="center light">Languages</h5>
+                                    <p>Well-versed in various programming languages including JavaScript, HTML, CSS, Node,
+                                          jQuery, MySQL and more.
+                                    </p>
+                              </div>
                         </div>
-                        <div class="row">
-                     <form class="col s12">
-                     <div class="row">
-                     <div class="input-field col s12">
-                     <textarea id="textarea1" name="textarea1" class="materialize-textarea"></textarea>
-                     <label for="textarea1">What's on your mind?</label>
-                     </div>
-                     </div>
-                     <button onclick="M.toast({html: 'Message Sent'})" class="btn-floating btn-medium pulse blue left" type="submit" name="submit"><i
-                        class="material-icons right">send</i>
-                     </button>
-                     </form>
-                     </div>
-                     </form>
+                        <div class="col s12 m4">
+                              <div class="icon-block">
+                                    <h2 class="center red-text"><i class="material-icons">bug_report</i></h2>
+                                    <h5 class="center light">Debugger</h5>
+                                    <p>A proactive professional who enjoys systematically testing websites for bugs and debugging
+                                          errors.
+                                    </p>
+                              </div>
+                        </div>
                   </div>
-               </div>
             </div>
-         </div>
+      </div>
+      <div class="parallax-container valign-wrapper">
+            <div class="section no-pad-bot">
+                  <div class="container">
+                        <div class="row center">
+                              <h5 class="header col s12 light text-shadow">I have a tricolor Pembroke Welsh Corgi. His name
+                                    is Cocoa.
+                              </h5>
+                        </div>
+                  </div>
+            </div>
+            <div class="parallax"><img src="assets/images/background2.jpg" alt="Unsplashed background img 2"></div>
+      </div>
+      <div class="container">
+            <div class="section">
+                  <div class="row">
+                        <div class="col s12 center">
+                              <h3><i class="mdi-content-send brown-text"></i></h3>
+                              <h4 id="about" class="light">About</h4>
+                              <p class="left-align">Tom is currently a student at Rutgers studying to become a full stack
+                                    developer. He is an experienced Front-End Web Developer with a proven background in developing
+                                    user-friendly websites and web applications. He is well-versed in various programming
+                                    languages including JavaScript, HTML, CSS, Node, and more.
+                              </p>
+                              <p class="left-align">Tom graduated from Rutgers University in 2011 with a major in Information
+                                    Technology. After graduation, he worked at MRA International for 5 years. He took a lead
+                                    role in the production and maintenance of a front end Magento and WordPress company website.
+                                    This included implementing a PunchOut catalog, systematically testing the website for
+                                    bugs, and managing the backend Magento catalog. Tom was also responsible for building
+                                    and managing graphics for the front end. He also provided client services in a massive
+                                    company project that required imaging thousands of laptops and desktops for Elizabeth
+                                    school districts all within tight time constraints.
+                              </p>
+                              <p class="left-align">On his free time, he likes to take care of his dog, drink, play video
+                                    games, watch movies / tv shows / anime, and exercise. He is knowledgeable in headphones
+                                    - music has always been a big part of his life. He currently owns the Fostex TH900, Focal
+                                    Elear, and Sennheiser HD 58X Jubilee headphones. His “go-to” earbud is the RHA T20 IEM's,
+                                    but also has the Tin Audio T2. His AMP and DAC of choice are the Burson Soloist and Schiit
+                                    BiFrost Multibit. He likes to listen to EDM, Hip-Hop, Rap, Pop, Rock, and occasionally
+                                    classical. Tom also enjoys reading about car news and currently drives a Genesis Coupe
+                                    and is hoping to one day own a BMW M2.
+                              </p>
+                        </div>
+                  </div>
+            </div>
+      </div>
+      <div class="parallax-container valign-wrapper">
+            <div class="section no-pad-bot">
+                  <div class="container">
+                        <div class="row center">
+                              <h5 class="header col s12 light text-shadow">I own the Fostex TH900, Focal Elear, and Sennheiser
+                                    HD58X Jubilee. Let's talk about headphones.
+                              </h5>
+                        </div>
+                  </div>
+            </div>
+            <div class="parallax"><img src="assets/images/background3.jpg" alt="Unsplashed background img 2"></div>
+      </div>
+      <div class="container">
+            <div class="section">
+                  <div class="row">
+                        <div class="col s12 center">
+                              <h3><i class="mdi-content-send brown-text"></i></h3>
+                              <h4 id="contact" class="light">Contact</h4>
+                              <div class="row">
+                                    <form class="col s12" action="https://getsimpleform.com/messages?form_api_token=ae06f54ebd564829ee11a8047bbbf905" method="post">
+                                          <div class="row">
+                                                <div class="input-field col s6">
+                                                      <i class="material-icons prefix">account_circle</i>
+                                                      <input id="name" name="name" type="text" class="validate">
+                                                      <label for="name">Name</label>
+                                                </div>
+                                          </div>
+                                          <div class="row">
+                                                <div class="input-field col s6">
+                                                      <i class="material-icons prefix">mail</i>
+                                                      <input id="email" name="email" type="email" class="validate">
+                                                      <label for="email">Email</label>
+                                                </div>
+                                          </div>
+                                          <div class="row">
+                                                <form class="col s12">
+                                                      <div class="row">
+                                                            <div class="input-field col s12">
+                                                                  <textarea id="textarea1" name="textarea1" class="materialize-textarea"></textarea>
+                                                                  <label for="textarea1">What's on your mind?</label>
+                                                            </div>
+                                                      </div>
+                                                      <button onclick="M.toast({html: 'Message Sent'})" class="btn-floating btn-medium pulse blue left" type="submit" name="submit"><i
+                                                                  class="material-icons right">send</i>
+                                                      </button>
+                                                </form>
+                                          </div>
+                                    </form>
+                              </div>
+                        </div>
+                  </div>
+            </div>
       </div>
       <footer class="page-footer grey darken-2">
-         <div class="container">
-            <div class="row">
-               <div class="col l6 s12">
-                  <h5 class="white-text light">Tom Hsu</h5>
-                  <p class="grey-text text-lighten-4">I hope you like what you see. If you want to contact me
-                     for anything - work or you just want to talk, use the email button below. Incase that
-                     doesn't work, my email is thomaschsu@gmail.com.
-                  </p>
-                  <a class="waves-effect waves-light btn green pulse hoverable" href="mailto:thomaschsu@gmail.com">email
-                  me <i class="material-icons right" class="white-text">mail</i></a>
-               </div>
-               <div class="col l3 s12">
-                  <h5 class="white-text light">navigate</h5>
-                  <ul>
-                     <li><a class="white-text" href="#about">about</a></li>
-                     <li><a class="white-text" href="#contact">contact</a></li>
-                     <li><a class="white-text" href="resume.html">resume</a></li>
-                     <li><a class="white-text" href="portfolio.html">portfolio</a></li>
-                  </ul>
-               </div>
-               <div class="col l3 s12">
-                  <h5 class="white-text light">connect</h5>
-                  <ul>
-                     <li><a class="white-text" href="https://github.com/thomaschsu"><i class="fab fa-github"></i>
-                        GitHub</a>
-                     </li>
-                     <li><a class="white-text" href="mailto:thomaschsu@gmail.com"><i class="fas fa-envelope"></i>
-                        Email</a>
-                     </li>
-                     <li><a class="white-text" href="https://linkedin.com/in/tomchsu"><i class="fab fa-linkedin"></i>
-                        LinkedIn</a>
-                     </li>
-                  </ul>
-               </div>
+            <div class="container">
+                  <div class="row">
+                        <div class="col l6 s12">
+                              <h5 class="white-text light">Tom Hsu</h5>
+                              <p class="grey-text text-lighten-4">I hope you like what you see. If you want to contact me
+                                    for anything - work or you just want to talk, use the email button below. Incase that
+                                    doesn't work, my email is thomaschsu@gmail.com.
+                              </p>
+                              <a class="waves-effect waves-light btn green pulse hoverable" href="mailto:thomaschsu@gmail.com">email
+                                    me <i class="material-icons right" class="white-text">mail</i></a>
+                        </div>
+                        <div class="col l3 s12">
+                              <h5 class="white-text light">navigate</h5>
+                              <ul>
+                                    <li><a class="white-text" href="#about">about</a></li>
+                                    <li><a class="white-text" href="#contact">contact</a></li>
+                                    <li><a class="white-text" href="resume.html">resume</a></li>
+                                    <li><a class="white-text" href="portfolio.html">portfolio</a></li>
+                              </ul>
+                        </div>
+                        <div class="col l3 s12">
+                              <h5 class="white-text light">connect</h5>
+                              <ul>
+                                    <li><a class="white-text" href="https://github.com/thomaschsu"><i class="fab fa-github"></i>
+                                                GitHub</a>
+                                    </li>
+                                    <li><a class="white-text" href="mailto:thomaschsu@gmail.com"><i class="fas fa-envelope"></i>
+                                                Email</a>
+                                    </li>
+                                    <li><a class="white-text" href="https://linkedin.com/in/tomchsu"><i class="fab fa-linkedin"></i>
+                                                LinkedIn</a>
+                                    </li>
+                              </ul>
+                        </div>
+                  </div>
             </div>
-         </div>
-         <div class="footer-copyright">
-            <div class="container light">
-               Copyright &copy; Tom Hsu 2018
+            <div class="footer-copyright">
+                  <div class="container light">
+                        Copyright &copy; Tom Hsu 2018
+                  </div>
             </div>
-         </div>
       </footer>
       <!--  Scripts-->
       <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
@@ -243,20 +255,21 @@
       <script src="assets/js/init.js"></script>
       <script src="assets/js/script.js"></script>
       <script src="assets/js/preloader.js"></script>
-   </body>
-   <div class="spinner-wrapper">
+</body>
+<div class="spinner-wrapper">
       <div class="preloader-wrapper big active">
-         <div class="spinner-layer spinner-blue-only">
-            <div class="circle-clipper left">
-               <div class="circle"></div>
+            <div class="spinner-layer spinner-blue-only">
+                  <div class="circle-clipper left">
+                        <div class="circle"></div>
+                  </div>
+                  <div class="gap-patch">
+                        <div class="circle"></div>
+                  </div>
+                  <div class="circle-clipper right">
+                        <div class="circle"></div>
+                  </div>
             </div>
-            <div class="gap-patch">
-               <div class="circle"></div>
-            </div>
-            <div class="circle-clipper right">
-               <div class="circle"></div>
-            </div>
-         </div>
       </div>
-   </div>
+</div>
+
 </html>
