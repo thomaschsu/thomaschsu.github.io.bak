@@ -5,11 +5,6 @@ My "most-up-to-date" portfolio. Read a small biography about me, look at my port
 
 - - -
 
-### Demo
-![Image 1](/images/image01.gif)
-
-- - -
-
 ### Skills Used
 1. HTML
 2. CSS / Materialize
