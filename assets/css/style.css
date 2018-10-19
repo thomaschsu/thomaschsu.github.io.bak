@@ -153,5 +153,5 @@ a:hover::after {
   }
 
   .cocoa-img {
-    border-radius: 10px;
+    border-radius: 50%;
   }
