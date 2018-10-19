@@ -151,3 +151,7 @@ a:hover::after {
   .selected-nav {
     background-color: rgba(0, 0, 0, 0.1);
   }
+
+  .cocoa-img {
+    border-radius: 10px;
+  }
