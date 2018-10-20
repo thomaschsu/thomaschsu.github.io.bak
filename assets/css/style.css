@@ -154,5 +154,9 @@ a:hover::after {
 
   .cocoa-img {
     border-radius: 50%;
-    width: 55%;
+    width: 45%;
+  }
+
+  .cocoa-headline {
+    color: #000;
   }
