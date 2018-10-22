@@ -160,3 +160,7 @@ a:hover::after {
   .cocoa-headline {
     color: #000;
   }
+
+  .modal {
+    width: 75% !important;
+  }
