@@ -174,8 +174,8 @@ a:hover::after {
     color: #000;
 }
 
-.modal {
-    width: 75% !important;
+.width-fix {
+    width: 95% !important;
 }
 
 #title-spinner:after {
