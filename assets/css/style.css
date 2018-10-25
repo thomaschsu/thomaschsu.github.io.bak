@@ -5,6 +5,7 @@
     line-height: 0;
     height: auto;
     color: rgba(255, 255, 255, .9);
+    background: rgba(0, 0, 0, 0.20);
 }
 
 .parallax-container .section {
@@ -193,6 +194,7 @@ a:hover::after {
 }
 
 /* Scroll to Top */
+
 .scrollUp {
     padding: 10px;
     text-align: center;
