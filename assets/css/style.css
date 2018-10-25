@@ -191,3 +191,21 @@ a:hover::after {
         content: "a Front-End Web Developer"
     }
 }
+
+/* Scroll to Top */
+.scrollUp {
+    padding: 10px;
+    text-align: center;
+    color: #FFF;
+    text-decoration: none;
+    position: fixed;
+    bottom: 75px;
+    right: 45px;
+    display: none;
+    background: #1976D2;
+    border-radius: 50%;
+}
+
+.scrollUp:hover {
+    text-decoration: none;
+}
