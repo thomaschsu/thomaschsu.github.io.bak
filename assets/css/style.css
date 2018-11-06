@@ -175,10 +175,10 @@ a:hover::after {
 
 @keyframes spin {
     0% {
-        content: "an Entry Level Full Stack Developer";
+        content: "Full Stack Developer";
     }
     100% {
-        content: "a Front-End Web Developer"
+        content: "Front-End Web Developer"
     }
 }
 
