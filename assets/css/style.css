@@ -171,6 +171,8 @@ a:hover::after {
 #title-spinner:after {
     content: "";
     animation: spin 5s linear infinite;
+    color: #1976D2;
+    font-weight: 600;
 }
 
 @keyframes spin {
